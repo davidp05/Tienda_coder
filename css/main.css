@@ -8,7 +8,7 @@
   border: 1px solid black; }
 
 html {
-  font-size: 20px;
+  font-size: 1rem;
   font-family: 'Roboto', sans-serif; }
 
 a {
@@ -22,42 +22,3 @@ a {
   display: grid;
   align-items: center;
   justify-content: center; }
-
-#home {
-  background-image: url(/img/coding-man.jpg);
-  background-size: cover;
-  background-position: top center;
-  position: relative;
-  z-index: 1; }
-  #home::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: .5;
-    z-index: -1; }
-  #home h1 {
-    display: block;
-    width: fit-content;
-    font-size: 4rem;
-    position: relative;
-    color: #F3EED9; }
-
-.button {
-  flex-wrap: wrap;
-  padding: 10px 30px;
-  color: #DC143C;
-  background-color: transparent;
-  border: 2px solid #DC143C;
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 1rem;
-  margin-top: 30px;
-  transition: 0.3s ease;
-  transition-property: background-color, color; }
-  .button:hover {
-    color: #F3EED9;
-    background-color: #DC143C; }
