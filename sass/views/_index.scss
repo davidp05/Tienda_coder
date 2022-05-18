@@ -1,3 +1,139 @@
 // Inicio index
 
+// NAVIGATION
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    line-height: 1rem;
+    background-color: $black;
+}
+
+.nav__center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav__logo{
+    font-size: 2rem;
+    color: $white;
+    span{
+        color: $amarillo;
+    }
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    span{
+        display: inline-block;
+        font-size: 3.5rem;
+        margin-top: .2rem;
+        color: $amarillo;
+    }
+}
+
+.carrito__icon{
+    position: relative;
+    cursor: pointer;
+    i{
+        margin-top: .6rem;
+        font-size: 3.5rem;
+        color: $amarillo;
+    }
+    span{
+        position: absolute;
+        top: -.4rem;
+        right: -3.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $rojo;
+        color: $white;
+        padding: .5rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        border-radius: 50%;
+    }
+}
+
+// PRODUCTOS
+
+.rating span{
+    font-size: 2rem;
+    color: $amarillo;
+}
+
+.rating{
+    margin: 1rem 0;
+}
+
+.productos{
+    padding: 5rem 0;
+}
+
+.producto__center{
+    padding: 0 3rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax(30rem, 1fr));
+    gap: 3rem 1rem;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .2);
+}
+
+.image__container img{
+    width: 200px;
+}
+
+.productos__footer{
+    padding: 1rem;
+    width: 100%;
+    h1{
+        height: 28px;
+        overflow: hidden;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+
+.bootom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.btn{
+    display: inline-block;
+    border: 1px solid $black;
+    padding: 1rem 1.8rem;
+    color: $black;
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.btn:hover{
+        background-color: $azul;
+        color: $white;
+        border: 1px solid $azul;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
 // Fin index

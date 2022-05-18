@@ -60,41 +60,5 @@ li{
     }
 }
 
-// Navigation
-
-.nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1.5rem 0;
-    line-height: 1rem;
-    background-color: $black;
-}
-
-.nav__center{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-.nav__logo{
-    font-size: 2rem;
-    color: $white;
-    span{
-        color: $amarillo;
-    }
-}
-
-.nav__list{
-    display: flex;
-    align-items: center;
-    span{
-        display: inline-block;
-        font-size: 3.5rem;
-        margin-top: .2rem;
-        color: $amarillo;
-    }
-}
+  
 
