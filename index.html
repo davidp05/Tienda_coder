@@ -1,44 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Tienda online - Perren David</title>
-<!--Box icons-->
-<link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
-</head>
-<body>
-    <!-- seccion header -->
-    <header>
-
-    </header>
-    <!-- Fin seccion header -->
-    <!-- seccion nav -->
-    <nav class="nav">
-        <div class="nav__center container">
-            <div class="nav__logo">
-                <h1>David <span>DEV</span></h1>
-            </div>
-            <ul class="nav__list">
-                <span>
-                    <i class="bx bxs-watch"></i>
-                </span>
-                <div class="carrito__icon">
-                    <i class="bx bx-cart"></i>
-                    <span class="item__total">0</span>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Tienda online - Perren David</title>
+        <!--Box icons-->
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        
+    </head>
+    <body>
+        <!-- seccion header -->
+        <header>
+            
+        </header>
+        <!-- Fin seccion header -->
+        <!-- seccion nav -->
+        <nav class="nav">
+            <div class="nav__center container">
+                <div class="nav__logo">
+                    <h1>David <span>DEV</span></h1>
                 </div>
-            </ul>
-        </div>
-    </nav>
-    <!-- Fin seccion nav -->
-    <!-- seccion Productos -->
-    <section class="productos">
-        <div class="productos__center">
-            <div class="producto">
+                <ul class="nav__list">
+                    <span>
+                        <i class="bx bxs-watch"></i>
+                    </span>
+                    <div class="carrito__icon">
+                        <i class="bx bx-cart"></i>
+                        <span class="item__total">0</span>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <!-- Fin seccion nav -->
+        <br><br><br><br><br><br><br><br>
+        <!--Filtro-->
+        
+        
+        <section class="filter">
+            <div class="grid">
+                <div class="div">
+                    <label for="buscar"><span><i class="bx bx-search"></i></span></label>
+                    <input type="text" id="buscar" placeholder="buscar relojes...">
+                </div>
+                <div class="category">
+                    <select id="category">
+                        <option value="Smartwatch">Smartwatch</option>
+                        <option value="Smartwatch">Smartwatch</option>
+                        <option value="Smartwatch">Smartwatch</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!--Fin del filtro-->
+        <!-- seccion Productos -->
+        
+        
+        <section class="productos">
+            <div class="productos__center">
+                <div class="producto">
                 <div class="image__container">
                     <img src="https://http2.mlstatic.com/D_NQ_NP_756321-MLA48096714513_112021-O.webp" alt="">
                 </div>
@@ -168,44 +192,52 @@
             </div>
         </div>
     </section>
+
+
     <!-- Fin seccion Productos -->
     <!--Seccion carrito-->
 
-    <section class="carrito__overlay show">
-        <div class="carrito show">
+    <!-- <section class="carrito__overlay">
+        <div class="carrito">
             <span class="close__carrito">
                 <i class="bx bx-x"></i>
             </span>
             <h1>Su carrito</h1>
-            <div class="carrito_center">
+            <div class="carrito__center">
+
                 <div class="carrito__item">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_756321-MLA48096714513_112021-O.webp" alt="">
-                    <h3>Smartwatch Apple</h3>
-                    <p class="price">USD 100.00</p>
-                                    <div>
-                                        <span>
-                                            <i class="bx bxs-up-arrow"></i>
-                                        </span>
-                                        <p>1</p>
-                                        <span>
-                                            <i class="bx bxs-down-arrow"></i>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <span class="remove__item">
-                                            <i class="bx bx-trash"></i>
-                                        </span>
-                                    </div>
-                                    <div class="carrito__footer">
-                                            <h3>Total: USD <span class="carrito__total">0</span></h3>
-                                            <button class="clear__carrito btn">Remover Carrito</button>
-                                    </div>
+                  <img src="https://http2.mlstatic.com/D_NQ_NP_756321-MLA48096714513_112021-O.webp" alt="Smartwatch">
+                  <div>
+                    <h3>Relojes Originales </h3>
+                    <p class="price">$122</p>
+                  </div>
+                  <div>
+                    <span>
+                      <i class="bx bxs-up-arrow"></i>
+                    </span>
+                    <p>1</p>
+                    <span>
+                      <i class="bx bxs-down-arrow"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <span class="remove__item">
+                      <i class="bx bx-trash"></i>
+                    </span>
+                  </div>
+                  
                 </div>
+              </div>
+              <div class="carrito__footer">
+                <h3>Total: $ <span class="carrito__total">0</span></h3>
+                <button class="clear__carrito btn">Remover carrito</button>
             </div>
-            
-        </div>
-    </section>
+          </div>
+    </section> -->
+
+
     <!--Fin seccion carrito-->
+
     <!-- seccion Footer -->
     <footer class="footer"> <!--Comienzo del footer-->
     </footer>
