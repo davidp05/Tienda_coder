@@ -356,3 +356,24 @@ li{
         margin: auto;
     }
 }
+
+//Footer
+
+.footer {
+    div{
+    padding: 4rem 0;
+    text-align: center;
+    color: black;
+    }
+    ul li{
+        display: inline-block;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}

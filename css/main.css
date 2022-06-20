@@ -391,6 +391,22 @@ li {
     max-width: 1092px;
     margin: auto; } }
 
+.footer div {
+  padding: 4rem 0;
+  text-align: center;
+  color: black; }
+
+.footer ul li {
+  display: inline-block; }
+
+.footer a {
+  text-decoration: none;
+  color: black; }
+
+.footer img {
+  width: 40px;
+  height: 40px; }
+
 /* Detalles */
 .detalles {
   height: 100vh;
@@ -435,3 +451,19 @@ li {
 @media only screen and (max-width: 840px) {
   .detalle-grid {
     grid-template-columns: 1fr; } }
+
+.footer div {
+  padding: 4rem 0;
+  text-align: center;
+  color: black; }
+
+.footer ul li {
+  display: inline-block; }
+
+.footer a {
+  text-decoration: none;
+  color: black; }
+
+.footer img {
+  width: 40px;
+  height: 40px; }
